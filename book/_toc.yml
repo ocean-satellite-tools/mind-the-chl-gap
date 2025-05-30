@@ -1,0 +1,33 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Data
+    chapters:
+      - file: notebooks/IO_Zarr.md
+        title: Indian Ocean dataset
+      - file: notebooks/background.md
+        title: Background
+      - file: notebooks/IO_Zarr_visualizations.ipynb
+        title: Reading and Visualizing Data
+      - file: notebooks/climatology_visualization.ipynb
+        title: Exploring the Indian Ocean Dataset
+  - caption: Models
+    chapters: 
+      - file: notebooks/simple_cnn.md
+        title: Simple CNN
+        sections:
+        - file: notebooks/Data_Prep.ipynb
+          title: Prep_Data
+        - file: notebooks/CHL_prediction_CNN.ipynb
+          title: Fit CNN
+      - file: notebooks/convlstm.md
+        title: ConvLSTM
+        sections:
+        - file: notebooks/CHL_prediction_ConvLSTM_.ipynb
+          title: Fit ConvLSTM
+        - file: notebooks/silver_signal_noise.pdf
+          title: test
+          
