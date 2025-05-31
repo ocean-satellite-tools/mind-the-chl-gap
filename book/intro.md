@@ -2,9 +2,13 @@
 
 ## Neural network models for Chloraphyll-a gap-filling for remote-sensing products
 
-A set of tutorials for creating a gap-filling algorithm from CNNs.
-
 ### Authors: See individual notebooks
+
+2024 GeoSMART Hackweek:
+
+[Pitch slide](https://docs.google.com/presentation/d/1YfBLkspba2hRz5pTHG9OF3o9WHv-yNemZDq2QKFCme0/edit?usp=sharing)
+[Zotero library](https://www.zotero.org/groups/5595561/safs-interns-/library)
+[Google doc](https://docs.google.com/document/d/1ADjtPFMy5mDxWJ_jhFhUWaBvjSd54YAfcc3d6araPCs/edit?usp=sharing)
 
 ### Collaborator Table
 
@@ -20,7 +24,3 @@ A set of tutorials for creating a gap-filling algorithm from CNNs.
 | Qi Ge | | geo-smart HackWeek 2024 | |
 | [Andy Barrett](https://nsidc.org/about/about-nsidc/what-we-do/our-people/andrew_barrett) | National Snow and Ice Data Center | geo-smart HackWeek 2024 | [<i class="fa-brands fa-orcid"></i>](https://orcid.org/0000-0003-4394-5445) [<i class="fa-brands fa-github"></i>](https://github.com/andypbarrett) |
 | [Robin Clancy](https://www.linkedin.com/in/robin-clancy/) | University of Oklahoma | geo-smart HackWeek 2024 | [<i class="fa-brands fa-github"></i>](https://github.com/robin-clancy) |
-
-### References
-
-[Zotero library](https://www.zotero.org/groups/5595561/safs-interns-/library)
