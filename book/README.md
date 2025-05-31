@@ -6,6 +6,8 @@ Everything is here.
 
 ### GitHub Action
 
+Set the Pages to render from GitHub Action in Settings > Pages on GitHub.
+
 There is a GitHub Action that should build the book whenever there is a push to the `book` directory. If the Action does not run, then you will need to debug. Click on the Action that did not build and click on the part that had a problem.
 
 ### Build locally and push to GitHub
