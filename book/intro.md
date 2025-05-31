@@ -4,11 +4,9 @@
 
 ### Authors: See individual notebooks
 
-2024 GeoSMART Hackweek:
+### References
 
-[Pitch slide](https://docs.google.com/presentation/d/1YfBLkspba2hRz5pTHG9OF3o9WHv-yNemZDq2QKFCme0/edit?usp=sharing)
 [Zotero library](https://www.zotero.org/groups/5595561/safs-interns-/library)
-[Google doc](https://docs.google.com/document/d/1ADjtPFMy5mDxWJ_jhFhUWaBvjSd54YAfcc3d6araPCs/edit?usp=sharing)
 
 ### Collaborator Table
 
