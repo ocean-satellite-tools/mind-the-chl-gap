@@ -16,9 +16,11 @@ parts:
         title: Exploring the Indian Ocean Dataset
   - caption: Models
     chapters: 
-      - file: notebooks/simple_cnn.md
-        title: Simple CNN
+      - file: notebooks/intro_to_cnn.md
+        title: Intro to CNNs for images
         sections:
+        - file: notebooks/simple_cnn.
+          title: Simple CNN
         - file: notebooks/Data_Prep.ipynb
           title: Prep_Data
         - file: notebooks/CHL_prediction_CNN.ipynb
