@@ -19,17 +19,13 @@ parts:
       - file: notebooks/intro_to_cnn.md
         title: Intro to CNNs for images
         sections:
-        - file: notebooks/simple_cnn.
+        - file: notebooks/simple_cnn.md
           title: Simple CNN
-        - file: notebooks/Data_Prep.ipynb
-          title: Prep_Data
         - file: notebooks/CHL_prediction_CNN.ipynb
-          title: Fit CNN
+          title: CNN Part I
       - file: notebooks/convlstm.md
         title: ConvLSTM
         sections:
         - file: notebooks/CHL_prediction_ConvLSTM_.ipynb
           title: Fit ConvLSTM
-        - file: notebooks/silver_signal_noise.pdf
-          title: test
           
