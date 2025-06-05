@@ -1,8 +1,10 @@
-## Intro to the idea behind CNNs
+# Intro to the idea behind CNNs
 
 Ocean physical and biological properties, like chlorophyll or SST or salinity, are random. They have strong spatial patterns. Remote-sensing data of these properties is often gridded. **Convolutional Neural Networks (CNNs)** is a type of machine learning model that is especially good at working with image-like, gridded data such as gridded remote-sensing data. 
 
-### What Makes CNNs Useful for Remote Sensing?
+Imagine you’re looking at a satellite photo of the ocean. If you cover all but one pixel, it’s hard to guess what’s going on. But if you can see the area around that pixel — the texture, gradients, and larger features — you get a much clearer picture. That’s what a CNN does: it uses **spatial context** to make better predictions.
+
+## What Makes CNNs Useful for Remote Sensing?
 
 CNNs are designed to take in **spatially structured data** — such as maps of SST, chlorophyll or salinity — learn the patterns in those maps and then use those patterns to help make predictions. For example, in our first toy example, we will use SST and salinity to predict chlorophyll.
 
@@ -14,7 +16,7 @@ This allows the CNN to:
 
 A key aspect of CNNs is "feature extraction".
 
-### What is feature extraction?
+## What is feature extraction?
 
 **Feature extraction** means identifying and using the most useful parts of the input data to make a prediction.  In the context of CNNs, this happens automatically: the model learns which spatial patterns in the predictor variables (in our toy example, these are SST and salinity) predict the response variable (in our example, chlorophyll), without us needing to specify them.
 
@@ -25,16 +27,10 @@ For example:
 
 The CNN learns these kinds of associations through training, and uses them to predict missing CHL values.
 
-### A simple analogy
-
-Imagine you’re looking at a satellite photo of the ocean. If you cover all but one pixel, it’s hard to guess what’s going on. But if you can see the area around that pixel — the texture, gradients, and larger features — you get a much clearer picture.
-
-That’s what a CNN does: it uses **spatial context** to make better predictions.
-
 
 ## CNN layers
 
-When we use a CNN, it analyzes the image in n x n blocks and layers of increasing block sizes. It compares the 
+When we use a CNN, it analyzes the image in n x n blocks and layers of increasing block sizes. For our simple (toy) CNN, we are using 3 layers, 2 fitting layers and then a prediction layer.
 
 ---
 
@@ -74,7 +70,7 @@ When we use a CNN, it analyzes the image in n x n blocks and layers of increasin
 
 So the model isn’t just looking at SST and salinity at a single location — it’s using a **7×7 spatial area** around each pixel to make smarter, spatially informed predictions.
 
-### Summary
+## Summary
 
 CNNs are powerful for modeling gridded remote-sensing data fromt the ocean because:
 - They work directly with spatial maps (like satellite imagery)

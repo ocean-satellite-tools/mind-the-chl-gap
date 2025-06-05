@@ -17,7 +17,7 @@ parts:
   - caption: Models
     chapters: 
       - file: notebooks/intro_to_cnn.md
-        title: Intro to CNNs for images
+        title: CNNs for images
         sections:
         - file: notebooks/simple_cnn.md
           title: Simple CNN
