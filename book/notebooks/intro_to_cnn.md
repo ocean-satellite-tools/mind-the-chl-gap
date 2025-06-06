@@ -14,7 +14,7 @@ This allows the CNN to:
 - Learn patterns like fronts, gradients, or eddies
 - Use context from surrounding areas to make better predictions
 
-A key aspect of CNNs is "feature extraction".
+A key aspect of CNNs is "feature identification".
 
 ## What is feature extraction?
 
@@ -27,6 +27,11 @@ For example:
 
 The CNN learns these kinds of associations through training, and uses them to predict missing CHL values.
 
+![](images/cnn-features.png)
+
+## Let's see an example
+
+![](images/cnn-feature-example.png)
 
 ## CNN layers
 
@@ -72,10 +77,10 @@ So the model isn’t just looking at SST and salinity at a single location — i
 
 ## Summary
 
-CNNs are powerful for modeling gridded remote-sensing data fromt the ocean because:
-- They work directly with spatial maps (like satellite imagery)
-- They use **neighboring information**, not just single-pixel values
-- They automatically learn useful spatial features to improve predictions
-- The nature of the ocean means that there are certain patterns that appear predictably.
+The nature of the ocean means that there are certain patterns in our environmental variables that appear predictably: eddies, swirls, fronts, blobs, etc.
 
-This makes CNNs a natural fit for tasks like filling missing ocean chlorophyll values using SST and salinity inputs.
+CNNs:
+- work directly with spatial maps (like satellite imagery)
+- use **neighboring information**, not just single-pixel values
+- automatically learn useful spatial features to improve predictions
+- a bit black boxy though we can get out the features (shapes) and that are important.

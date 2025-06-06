@@ -22,3 +22,9 @@ Once we have the data in the right form, we pass our model fitting function the 
 During the validation step, we will run a loop to improve our hyperparameters (structure of our model) using the `X_val` and `y_val` that were not used in training. The result is our 'best' model.
 
 Finally, during the test step, we use our best model to make predictions for the days that it has never 'seen' (the test data). It will use the predictors for these test days (`X_test`) to make predictions and then we will compare the predictions to the true values (`y_test`).
+
+## Set-up on the JupyterHub
+
+Although you can run this tutorial on CPU, it will be much faster on GPU. We used the image `quay.io/pangeo/ml-notebook:2025.05.22` for running the notebook. If you are using CPU, then use Other with the image link about and choose 3.7Gb. If you are using GPU, just select the NVIDIA radio button.
+
+![](images/Other-pangeo-ml.png)
