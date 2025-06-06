@@ -4,6 +4,17 @@ In this example, we will attempt to use a Convolutional Neural Network trained o
 
 ![](images/simple_cnn.jpg)
 
+## Get the tutorial
+
+You can work in this as long a you don't save. Or make a copy.
+
+* Part I: `~/shared/cnn/CHL_prediction_CNN.ipynb`
+
+Open a terminal
+```
+cp ~/shared/cnn/CHL_prediction_CNN.ipynb ~
+```
+
 ## Prepping the data
 
 There are many data formats you could use, but we are going to use xarrays (a type of data cube). Technically, it is a numpy array with some meta data. Our arrays with have a bounding box (lat/lon), a time dimension, and variables.

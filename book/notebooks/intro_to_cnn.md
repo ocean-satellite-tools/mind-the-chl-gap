@@ -65,7 +65,13 @@ When we use a CNN, it analyzes the image in n x n blocks and layers of increasin
 ### Layer 3 — Useful Information for Prediction
 
 - Sees a 7×7 neighborhood in the input
-- Combines earlier features to make a **prediction for CHL** at each pixel
+- Combines earlier features to make a **prediction for CHL** at each pixel. We will use a linear combination of the features.
+
+Conceptually we have something like this with $k$ features in our trained model.
+
+$$
+\text{prediction}(i, j) = w_1 \cdot F_1(i, j) + w_2 \cdot F_2(i, j) + \dots + w_{k} \cdot F_{k}(i, j) + b
+$$
 
 ---
 
