@@ -21,7 +21,9 @@ parts:
         sections:
         - file: notebooks/simple_cnn.md
           title: Simple CNN
-        - file: notebooks/CHL_prediction_CNN.ipynb
+        - file: notebooks/Data_Prep_Part_1.ipynb
+          title: Data Prep Part I
+        - file: notebooks/CHL_prediction_CNN_Part_1.ipynb
           title: CNN Part I
       - file: notebooks/convlstm.md
         title: ConvLSTM
