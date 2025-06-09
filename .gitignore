@@ -116,3 +116,4 @@ venv.bak/
 *.Rproj
 .Rproj.user
 .DS_Store
+core.*
