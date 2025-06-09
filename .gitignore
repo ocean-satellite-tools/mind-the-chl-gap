@@ -110,6 +110,7 @@ venv.bak/
 *.hdf5
 *.nc
 *.tif
+*.zarr
 
 # misc
 *.Rproj
