@@ -25,6 +25,10 @@ parts:
           title: Data Prep Part I
         - file: notebooks/CHL_prediction_CNN_Part_1.ipynb
           title: CNN Part I
+        - file: notebooks/CHL_prediction_CNN_Part_2d.ipynb
+          title: CNN Part II Land Mask
+        - file: notebooks/CHL_prediction_CNN_Part_2e.ipynb
+          title: CNN Part II Season
       - file: notebooks/convlstm.md
         title: ConvLSTM
         sections:
