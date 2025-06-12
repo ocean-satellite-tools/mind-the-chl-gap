@@ -35,7 +35,7 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
-  favicon: "mtcg-logo-no-text-small.jpg"  
+  favicon: "mtcg-logo-no-text-small.png"  
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true

@@ -17,7 +17,7 @@ parts:
   - caption: Models
     chapters: 
       - file: notebooks/intro_to_cnn.md
-        title: CNNs for images
+        title: CNNs for gridded data
         sections:
         - file: notebooks/simple_cnn.md
           title: Simple CNN
@@ -27,7 +27,7 @@ parts:
           title: CNN Part I
         - file: notebooks/CHL_prediction_CNN_Part_2d.ipynb
           title: CNN Part II Land Mask
-        - file: notebooks/CHL_prediction_CNN_Part_2e.ipynb
+        - file: notebooks/CHL_prediction_CNN_Part_2f.ipynb
           title: CNN Part II Season
       - file: notebooks/convlstm.md
         title: ConvLSTM
