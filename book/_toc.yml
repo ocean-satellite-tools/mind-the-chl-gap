@@ -31,8 +31,10 @@ parts:
           title: CNN Part II Land Mask
         - file: notebooks/CHL_prediction_CNN_Part_2f.ipynb
           title: CNN Part II Seasonality
+        - file: notebooks/Data_Prep_CNN.ipynb
+          title: Data Prep CNN GCS
         - file: notebooks/CHL_prediction_CNN_Part_2_gcs.ipynb
-          title: CNN Part II Land and Season
+          title: CNN Part II GCS
       - file: notebooks/convlstm.md
         title: ConvLSTM
         sections:
