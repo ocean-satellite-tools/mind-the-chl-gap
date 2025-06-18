@@ -36,6 +36,12 @@ jobs:
         run: |
           pip install -r requirements.txt
 
+      # Move notebooks to _static so the can be downloaded
+      - name: Copy notebooks to _static for download
+        run: |
+          mkdir -p book/_static
+          cp book/notebooks/*.ipynb book/_static/
+          
       # Build the book
       - name: Build the book
         run: |
