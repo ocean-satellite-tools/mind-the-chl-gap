@@ -31,6 +31,8 @@ parts:
           title: CNN Part II land and season
         - file: notebooks/CHL_prediction_CNN_Part_3.ipynb
           title: CNN Part III xbatcher
+        - file: notebooks/CHL_prediction_CNN_Part_4.ipynb
+          title: CNN Part IV multi-year training
       - file: notebooks/convlstm.md
         title: ConvLSTM
         sections:
