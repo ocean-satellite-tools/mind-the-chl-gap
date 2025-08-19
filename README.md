@@ -1,8 +1,8 @@
-# mind-the-chl-gap-2024
+# mind-the-chl-gap
 
-This is the repo from the Geo-smart HackWeek 2024. The material is used in "mind-the-chl-gap" which is a series of tutorials on CNNs for the gap-filling and prediction problem.
+This is work from the Geo-smart HackWeek 2024 and OceanHackWeek 2025. The material is used in "mind-the-chl-gap" which is a series of tutorials on CNNs for the gap-filling and prediction problem.
 
-#### Neural network models for Chloraphyll-a gap-filling for remote-sensing products
+#### Neural network models for Cgap-filling for gridded 2D remote-sensing products
 
 ### 2024 GeoSMART Hackweek team:
 
@@ -14,18 +14,32 @@ This is the repo from the Geo-smart HackWeek 2024. The material is used in "mind
 * Eli Holmes
 * Robin Clancy
 
-### Hackweek notes
-
-Image to use for GPU if you need tensorflow `quay.io/pangeo/ml-notebook:2024.08.18`
-
 [Pitch slide](https://docs.google.com/presentation/d/1YfBLkspba2hRz5pTHG9OF3o9WHv-yNemZDq2QKFCme0/edit?usp=sharing)
 [Zotero library](https://www.zotero.org/groups/5595561/safs-interns-/library)
 [Google doc](https://docs.google.com/document/d/1ADjtPFMy5mDxWJ_jhFhUWaBvjSd54YAfcc3d6araPCs/edit?usp=sharing)
 
+
+### 2025 OceanHackWeek Hackweek team:
+
+* Lilac Hong
+* Trina Xavier
+* Bruna Candida
+* Eli Holmes
+
+### Hackweek notes
+
+Image to use for GPU if you need tensorflow `quay.io/pangeo/ml-notebook:2024.08.18`
+
 The IO dataset is an analysis ready gridded zarr file for the Indian Ocean. It is in the Cryo hub. Load with
 ```
 import xarray as xr
-ds = xr.open_zarr("~/shared-public/mind_the_chl_gap/IO.zarr")
+dataset = xr.open_dataset(
+    "gcs://nmfs_odp_nwfsc/CB/mind_the_chl_gap/cnn_tutorial",
+    engine="zarr",
+    backend_kwargs={"storage_options": {"token": "anon"}},
+    consolidated=True
+)
+dataset
 ```
 - Copernicus level 3 Chl-a (globColour) `ds["CHL_cmes-level3"]`
 - Copernicus level 4 Chl-a (globColour) `ds["CHL_cmes-gapfree"]`
