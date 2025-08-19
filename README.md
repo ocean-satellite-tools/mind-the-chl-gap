@@ -2,7 +2,7 @@
 
 This is work from the Geo-smart HackWeek 2024 and OceanHackWeek 2025. The material is used in "mind-the-chl-gap" which is a series of tutorials on CNNs for the gap-filling and prediction problem.
 
-#### Neural network models for Cgap-filling for gridded 2D remote-sensing products
+#### Neural network models for gap-filling for gridded 2D remote-sensing products
 
 ### 2024 GeoSMART Hackweek team:
 
