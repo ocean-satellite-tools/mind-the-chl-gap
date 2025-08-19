@@ -19,7 +19,7 @@ This is work from the Geo-smart HackWeek 2024 and OceanHackWeek 2025. The materi
 [Google doc](https://docs.google.com/document/d/1ADjtPFMy5mDxWJ_jhFhUWaBvjSd54YAfcc3d6araPCs/edit?usp=sharing)
 
 
-### 2025 OceanHackWeek Hackweek team:
+### 2025 OceanHackWeek team:
 
 * Lilac Hong
 * Trina Xavier
