@@ -1,6 +1,6 @@
 # Home
 
-## Neural network models for Chloraphyll-a gap-filling for remote-sensing products
+## Neural network models for gap-filling for 2D gridded remote-sensing products
 
 ### Authors: See individual notebooks
 
@@ -21,4 +21,7 @@
 | Gabriel Hesketh | University of Sourthern Mississippi | geo-smart HackWeek 2024 | [<i class="fa-brands fa-github"></i>](https://github.com/GheskethUSM) |
 | Qi Ge | | geo-smart HackWeek 2024 | |
 | [Andy Barrett](https://nsidc.org/about/about-nsidc/what-we-do/our-people/andrew_barrett) | National Snow and Ice Data Center | geo-smart HackWeek 2024 | [<i class="fa-brands fa-orcid"></i>](https://orcid.org/0000-0003-4394-5445) [<i class="fa-brands fa-github"></i>](https://github.com/andypbarrett) |
-| [Robin Clancy](https://www.linkedin.com/in/robin-clancy/) | University of Oklahoma | geo-smart HackWeek 2024 | [<i class="fa-brands fa-github"></i>](https://github.com/robin-clancy) |
+| [Robin Clancy](https://www.linkedin.com/in/robin-clancy/) | University of Oklahoma | geo-smart HackWeek 2024 | [<i class="fa-brands fa-github"></i>](https://github.com/robin-clan) |
+| [Trina Xavier](https://www.linkedin.com/in/trina-xavier-2ab070201/) | University of Massachusetts Dartmouth| OceanHackWeek 2025 | [<i class="fa-brands fa-github"></i>](https://github.com/trinaxavier2001) |
+
+
