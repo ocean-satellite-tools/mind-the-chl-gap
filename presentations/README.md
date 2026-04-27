@@ -1,5 +1,5 @@
 # Presentations or abstracts
 
-* NOAA CoastWatch STAR seminar, August 8, 2024. Yifei Hang and Shridar Sinha. Developing daily gap-filled chlorophyll-a datasets using deep neural networks with co-located environmental variables
+* NOAA CoastWatch STAR seminar, August 8, 2024. Yifei Hang and Shridar Sinha. [Developing daily gap-filled chlorophyll-a datasets using deep neural networks with co-located environmental variables](https://github.com/ocean-satellite-tools/mind-the-chl-gap/blob/main/presentations/Ocean%20Chlorophyll%202024-08-08.pdf)
 * AGU 2024 Abstract. [Developing daily gap-filled chlorophyll-a datasets using ensemble (tree) models and deep‬ neural networks that incorporate co-located environmental variables](https://github.com/geo-smart/mind-the-chl-gap/blob/main/presentations/Abstract%20-%20AGU%202024.pdf)‬.
 ‭
